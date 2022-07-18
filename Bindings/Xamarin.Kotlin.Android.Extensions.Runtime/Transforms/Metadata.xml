@@ -1,9 +1,8 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+    <!-- Normalize the namespace for .NET -->
+    <attr path="/api/package[@name='kotlinx.android.parcel']" name="managedName">KotlinX.Android.Parcel</attr>
+    <attr path="/api/package[@name='kotlinx.android.extensions']" name="managedName">KotlinX.Android.Extensions</attr>
+
+    <!-- Warning BG8401: Skipping 'KotlinX.Android.Extensions.CacheImplementation.Companion' due to a duplicate nested type name. -->
+    <attr path="/api/package/class[substring(@name,string-length(@name)-9)='.Companion']" name="managedName">CompanionStatic</attr>
 </metadata>

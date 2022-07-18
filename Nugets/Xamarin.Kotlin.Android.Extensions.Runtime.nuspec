@@ -1,1 +1,46 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Kotlin.Android.Extensions.Runtime</id>
+    <version>1.1.4</version>
+    <title>Xamarin.Kotlin.Android.Extensions.Runtime</title>
+    <authors>Josue Diaz</authors>
+    <owners>Josue Diaz</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>icon.png</icon>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/JosueDM94/Xamarin.Kotlin</projectUrl>
+    <description>Xamarin.Android bindings for Kotlin Android Extensions Runtime</description>
+    <summary>Xamarin.Android bindings for Kotlin Android Extensions Runtime</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright Josué Díaz © 2022</copyright>
+    <language>en-US</language>
+    <tags>xamarin, android, kotlin, extensions, runtime</tags>
+    <readme>README.md</readme>
+    <repository type="git" url="https://github.com/JosueDM94/Xamarin.Kotlin" />
+    <developmentDependency>false</developmentDependency>
+    <dependencies>
+      <group targetFramework="MonoAndroid11.0">
+        <!--MonoAndroid dependencies go here-->
+        <dependency id="Xamarin.Kotlin.Stdlib" version="1.1.4.2" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid11.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid11.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid11.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid11.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!-- NuGet reference assemblies -->
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/LICENSE" target="LICENSE" />
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/icon.png" target="icon.png" />
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/README.md" target="README.md" />
+
+    <!-- Android reference assemblies -->
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/Xamarin.Kotlin.Android.Extensions.Runtime.dll" target="lib/monoandroid11.0/Xamarin.Kotlin.Android.Extensions.Runtime.dll" />
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/Xamarin.Kotlin.Android.Extensions.Runtime.xml" target="lib/monoandroid11.0/Xamarin.Kotlin.Android.Extensions.Runtime.xml" />    
+  </files>
+</package>
