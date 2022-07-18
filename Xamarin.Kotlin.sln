@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bindings", "Bindings", "{F5C7C217-FDA8-4883-837E-8E5AADFCED0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nugets", "Nugets", "{0ABE89C8-EF31-4EEA-8D26-97C251B8CC1D}"
+	ProjectSection(SolutionItems) = preProject
+		Nugets\Xamarin.Kotlin.Android.Extensions.Runtime.nuspec = Nugets\Xamarin.Kotlin.Android.Extensions.Runtime.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{76A45D8E-F9FB-4962-863D-679C812ED150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Kotlin.Android.Extensions.Runtime", "Bindings\Xamarin.Kotlin.Android.Extensions.Runtime\Xamarin.Kotlin.Android.Extensions.Runtime.csproj", "{AAA5E72D-94C4-4E4B-96D7-D1F6B6B8F5F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA5E72D-94C4-4E4B-96D7-D1F6B6B8F5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA5E72D-94C4-4E4B-96D7-D1F6B6B8F5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA5E72D-94C4-4E4B-96D7-D1F6B6B8F5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA5E72D-94C4-4E4B-96D7-D1F6B6B8F5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFEF950-F40E-486F-A6DD-FF39152321E4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAA5E72D-94C4-4E4B-96D7-D1F6B6B8F5F7} = {F5C7C217-FDA8-4883-837E-8E5AADFCED0D}
+	EndGlobalSection
+EndGlobal
