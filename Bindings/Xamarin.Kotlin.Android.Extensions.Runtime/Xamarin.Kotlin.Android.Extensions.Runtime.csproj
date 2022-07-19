@@ -60,10 +60,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\kotlin-android-extensions-runtime-1.2.70.jar" />
+    <EmbeddedJar Include="Jars\kotlin-android-extensions-runtime-1.2.71.jar" />
   </ItemGroup>
   <ItemGroup>
-    <JavaSourceJar Include="Jars\kotlin-android-extensions-runtime-1.2.70-sources.jar" />
+    <JavaSourceJar Include="Jars\kotlin-android-extensions-runtime-1.2.71-sources.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
