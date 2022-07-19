@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Kotlin.Android.Extensions.Runtime</id>
-    <version>1.2.61</version>
+    <version>1.2.70</version>
     <title>Xamarin.Kotlin.Android.Extensions.Runtime</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
