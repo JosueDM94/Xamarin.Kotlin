@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Kotlin.Android.Extensions.Runtime</id>
-    <version>1.4.31</version>
+    <version>1.4.32</version>
     <title>Xamarin.Kotlin.Android.Extensions.Runtime</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
@@ -23,7 +23,7 @@
     <dependencies>
       <group targetFramework="MonoAndroid11.0">
         <!--MonoAndroid dependencies go here-->
-        <dependency id="Xamarin.Kotlin.Stdlib" version="1.4.31.1" />
+        <dependency id="Xamarin.Kotlin.Stdlib" version="1.4.32.1" />
       </group>
     </dependencies>
     <frameworkAssemblies>
