@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Kotlin.Android.Extensions.Runtime</id>
-    <version>1.7.10</version>
+    <version>1.7.10.1</version>
     <title>Xamarin.Kotlin.Android.Extensions.Runtime</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
@@ -11,36 +11,29 @@
     <license type="file">LICENSE</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <projectUrl>https://github.com/JosueDM94/Xamarin.Kotlin</projectUrl>
-    <description>Xamarin.Android bindings for Kotlin Android Extensions Runtime</description>
-    <summary>Xamarin.Android bindings for Kotlin Android Extensions Runtime</summary>
-    <releaseNotes></releaseNotes>
+    <description>Android bindings for Kotlin Android Extensions Runtime</description>
+    <summary>Android bindings for Kotlin Android Extensions Runtime</summary>
+    <releaseNotes>.Net 8 Support</releaseNotes>
     <copyright>Copyright Josué Díaz © 2022</copyright>
     <language>en-US</language>
-    <tags>xamarin, android, kotlin, extensions, runtime</tags>
+    <tags>xamarin, maui, net, android, kotlin, extensions, runtime</tags>
     <readme>README.md</readme>
     <repository type="git" url="https://github.com/JosueDM94/Xamarin.Kotlin" />
     <developmentDependency>false</developmentDependency>
     <dependencies>
-      <group targetFramework="MonoAndroid12.0">
-        <!--MonoAndroid dependencies go here-->
-        <dependency id="Xamarin.Kotlin.Stdlib" version="1.7.10" />
+      <group targetFramework="net8.0-android34.0">
+        <dependency id="Xamarin.Kotlin.Stdlib" version="1.9.23.1" />
       </group>
     </dependencies>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid12.0" />
-      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid12.0" />
-      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid12.0" />
-      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid12.0" />
-    </frameworkAssemblies>
   </metadata>
   <files>
     <!-- NuGet reference assemblies -->
-    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/LICENSE" target="LICENSE" />
-    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/icon.png" target="icon.png" />
-    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/README.md" target="README.md" />
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/LICENSE" target="LICENSE" />
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/icon.png" target="icon.png" />
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/README.md" target="README.md" />
 
     <!-- Android reference assemblies -->
-    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/Xamarin.Kotlin.Android.Extensions.Runtime.dll" target="lib/monoandroid12.0/Xamarin.Kotlin.Android.Extensions.Runtime.dll" />
-    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/Xamarin.Kotlin.Android.Extensions.Runtime.xml" target="lib/monoandroid12.0/Xamarin.Kotlin.Android.Extensions.Runtime.xml" />    
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.dll" target="lib/net8.0-android34.0/Xamarin.Kotlin.Android.Extensions.Runtime.dll" />
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.xml" target="lib/net8.0-android34.0/Xamarin.Kotlin.Android.Extensions.Runtime.xml" />    
   </files>
 </package>
