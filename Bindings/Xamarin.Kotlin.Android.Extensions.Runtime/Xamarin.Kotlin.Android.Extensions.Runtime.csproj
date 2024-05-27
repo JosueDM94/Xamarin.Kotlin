@@ -3,24 +3,17 @@
     <TargetFramework>net8.0-android</TargetFramework>
     <IsBindingProject>true</IsBindingProject>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AndroidGenerateResourceDesigner>false</AndroidGenerateResourceDesigner>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.23.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedJar Include="Jars\kotlin-android-extensions-runtime-1.7.10.jar" />
-    <JavaSourceJar Include="Jars\kotlin-android-extensions-runtime-1.7.10-sources.jar" />
-    <JavaDocJar Include="Jars\kotlin-android-extensions-runtime-1.7.10-javadoc.jar" />
+    <JavaSourceJar Include="Jars\kotlin-android-extensions-runtime-sources.jar" />
+    <JavaDocJar Include="Jars\kotlin-android-extensions-runtime-javadoc.jar" />
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Kotlin.Android.Extensions.Runtime</id>
-    <version>1.7.10.1</version>
+    <version>1.7.10.2</version>
     <title>Xamarin.Kotlin.Android.Extensions.Runtime</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
@@ -33,7 +33,8 @@
     <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/README.md" target="README.md" />
 
     <!-- Android reference assemblies -->
-    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.dll" target="lib/net8.0-android34.0/Xamarin.Kotlin.Android.Extensions.Runtime.dll" />
-    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.xml" target="lib/net8.0-android34.0/Xamarin.Kotlin.Android.Extensions.Runtime.xml" />    
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.aar" target="lib/net8.0-android34.0" />
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.dll" target="lib/net8.0-android34.0" />
+    <file src="/Users/josue/Projects/Bindings/Xamarin.Kotlin/Bindings/Xamarin.Kotlin.Android.Extensions.Runtime/bin/Release/net8.0-android/Xamarin.Kotlin.Android.Extensions.Runtime.xml" target="lib/net8.0-android34.0" />    
   </files>
 </package>
